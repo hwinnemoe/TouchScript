@@ -21,7 +21,7 @@ Developed by Valentin Simonov.
 To use **TouchScript** in your project you either need to 
 * download the [latest release from Github](https://github.com/TouchScript/TouchScript/releases),
 * or get it from [Asset Store](https://www.assetstore.unity3d.com/en/#!/content/7394),
-* or clone the [repository](https://github.com/TouchScript/TouchScript) and use the source ([more info on how to do it](https://github.com/TouchScript/TouchScript/wiki/How-to-Contribute)).
+* or clone the [repository](https://github.com/TouchScript/TouchScript) and use the source ([more info on how to do it](https://github.com/hwinnemoe/TouchScript/wiki/How-to-Contribute)).
 
 ### Your first TouchScript project
 To test how TouchScript works, create an empty scene and drag two prefabs from `TouchScript/Prefabs` folder to the scene: `TouchManager` and `Cursors`. Press Play and click or touch (if your PC supports touch input) the Game View — you will see colored circles, pointer cursors.
@@ -32,28 +32,28 @@ You can make any GameObject react to touch input — just attach one of the scri
 
 To test how built-in Gestures work, create an empty cube in the scene and attach a `TransformGesture` to it either from `Component` menu or `Add Component` button. Make the cube large enough to be able to touch it with two fingers. Attach another component called `Transformer` to the cube — this component listens to events from `TransformGesture` and applies translation, rotation and scaling to the GameObject.
 
-Press Play. Note how you can drag the object with one touch and scale or rotate it with two touches. Don't forget that you can use Alt + click to simulate a second pointer ([read more more about testing multi-touch gestures](https://github.com/TouchScript/TouchScript/wiki/Testing-multitouch-on-a-PC)).
+Press Play. Note how you can drag the object with one touch and scale or rotate it with two touches. Don't forget that you can use Alt + click to simulate a second pointer ([read more more about testing multi-touch gestures](https://github.com/hwinnemoe/TouchScript/wiki/Testing-multitouch-on-a-PC)).
 
 ### Examples
 TouchScript comes with many examples in `TouchScript/Examples` folder. Open `Examples.unity` scene and read description for every example to find out what it is about.  
 
-[All examples are explaned here.](https://github.com/TouchScript/TouchScript/wiki/Examples)
+[All examples are explaned here.](https://github.com/hwinnemoe/TouchScript/wiki/Examples)
 
 ### What to read next
-- [How to receive a pointer.](https://github.com/TouchScript/TouchScript/wiki/Pointer-Input)
-- [What is a Gesture and how to work with it.](https://github.com/TouchScript/TouchScript/wiki/Gestures)
-- [What is an Input Source and why it is needed.](https://github.com/TouchScript/TouchScript/wiki/Input-Sources)
-- [What is a Layer and why it is needed.](https://github.com/TouchScript/TouchScript/wiki/Layers)
-- [Some info on how TouchScript works internally.](https://github.com/TouchScript/TouchScript/wiki/Main-Ideas-Behind-TouchScript)
-- [How to affect which objects can be touched.](https://github.com/TouchScript/TouchScript/wiki/Modifying-Hits)
-- [How to change touch coordinates from an input device.](https://github.com/TouchScript/TouchScript/wiki/Remapping-Coordinates-From-an-Input-Source)
-- [How to write a custom Gesture.](https://github.com/TouchScript/TouchScript/wiki/Tutorial.-Writing-a-Custom-Gesture.)
-- [How you can help.](https://github.com/TouchScript/TouchScript/wiki/How-to-Contribute)
+- [How to receive a pointer.](https://github.com/hwinnemoe/TouchScript/wiki/Pointer-Input)
+- [What is a Gesture and how to work with it.](https://github.com/hwinnemoe/TouchScript/wiki/Gestures)
+- [What is an Input Source and why it is needed.](https://github.com/hwinnemoe/TouchScript/wiki/Input-Sources)
+- [What is a Layer and why it is needed.](https://github.com/hwinnemoe/TouchScript/wiki/Layers)
+- [Some info on how TouchScript works internally.](https://github.com/hwinnemoe/TouchScript/wiki/Main-Ideas-Behind-TouchScript)
+- [How to affect which objects can be touched.](https://github.com/hwinnemoe/TouchScript/wiki/Modifying-Hits)
+- [How to change touch coordinates from an input device.](https://github.com/hwinnemoe/TouchScript/wiki/Remapping-Coordinates-From-an-Input-Source)
+- [How to write a custom Gesture.](https://github.com/hwinnemoe/TouchScript/wiki/Writing-a-Custom-Gesture)
+- [How you can help.](https://github.com/hwinnemoe/TouchScript/wiki/How-to-Contribute)
 
 ## Need help?
-> If you have a problem using TouchScript or running examples please check the [FAQ](FAQ) before submitting issues.
+> If you have a problem using TouchScript or running examples please check the [FAQ](https://github.com/hwinnemoe/TouchScript/wiki/FAQ) before submitting issues.
 
- - [FAQ](FAQ)  
+ - [FAQ](https://github.com/hwinnemoe/TouchScript/wiki/FAQ)  
 _Some of the questions have been already asked multiple times. Check if yours is in the list._
  - [Documentation](http://touchscript.github.io/docs/)  
 _Complete up-to-date generated docs with all public API annotated._
