@@ -57,7 +57,5 @@ TouchScript comes with many examples in `TouchScript/Examples` folder. Open `Exa
 _Some of the questions have been already asked multiple times. Check if yours is in the list._
  - [Documentation](http://touchscript.github.io/docs/)  
 _Complete up-to-date generated docs with all public API annotated._
- - [Official Forum](http://touchprefab.com/index.php)  
-_Want to ask a question about TouchScript? Use the official Forum._
  - [Issues](https://github.com/TouchScript/TouchScript/issues)  
 _Found a bug? Got a feature request? Feel free to post it in Issues._  
